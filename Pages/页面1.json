@@ -33,6 +33,11 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "CellDefaultValue": "bulubulu"
       }
+    },
+    "11,11": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy"
+      }
     }
   },
   "StyleDatas": {
@@ -57,7 +62,8 @@
   },
   "Spans": [
     "2,11,3,13",
-    "6,11,3,13"
+    "6,11,3,13",
+    "11,11,12,12"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
