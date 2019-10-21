@@ -31,6 +31,12 @@
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
         "ClickMode": 1
       }
+    },
+    "13,12": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
     }
   },
   "StyleDatas": {
@@ -55,7 +61,8 @@
   },
   "Spans": [
     "7,12,3,12",
-    "4,12,2,12"
+    "4,12,2,12",
+    "13,12,1,12"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
