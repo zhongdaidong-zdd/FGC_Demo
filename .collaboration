@@ -122,5 +122,15 @@
   {
     "ModuleName": "页面2",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\TestFile",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2019-10-21T19:24:19.0143921+08:00",
+    "ModuleType": 6
   }
 ]
