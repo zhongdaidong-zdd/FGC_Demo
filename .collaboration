@@ -132,5 +132,15 @@
     },
     "LockDateTime": "2019-10-21T19:24:19.0143921+08:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "页面3",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2019-10-21T19:24:43.3171583+08:00",
+    "ModuleType": 1
   }
 ]
