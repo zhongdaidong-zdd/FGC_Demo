@@ -85,14 +85,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2019-11-06T14:24:48.3298279+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": []
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -128,16 +121,7 @@
   },
   {
     "ModuleName": "页面4",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2019-11-06T14:25:16.0162539+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\test\\页面4.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "页5",
@@ -161,36 +145,10 @@
   },
   {
     "ModuleName": "Pages\\test\\test\\test",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2019-11-06T14:27:45.650299+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": []
+    "ModuleType": 7
   },
   {
     "ModuleName": "页面3",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2019-11-06T14:27:45.650299+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\test\\test\\test\\页面3.json"
-    ]
-  },
-  {
-    "ModuleName": "Pages\\test\\test\\test1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2019-11-06T14:27:45.650299+08:00",
-    "ModuleType": 7
+    "ModuleType": 1
   }
 ]
