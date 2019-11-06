@@ -121,7 +121,16 @@
   },
   {
     "ModuleName": "页面3",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2019-11-06T14:18:24.3043109+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\test\\页面3.json"
+    ]
   },
   {
     "ModuleName": "页面4",
