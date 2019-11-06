@@ -150,5 +150,15 @@
   {
     "ModuleName": "Pages\\内建页面",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "内建页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2019-11-06T14:48:52.4058038+08:00",
+    "ModuleType": 1
   }
 ]
