@@ -129,11 +129,29 @@
   },
   {
     "ModuleName": "页面3",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2019-11-06T14:06:24.9290776+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\TestFile\\页面3.json"
+    ]
   },
   {
     "ModuleName": "页面4",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2019-11-06T14:06:24.9290776+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\TestFile\\页面4.json"
+    ]
   },
   {
     "ModuleName": "页5",
@@ -142,7 +160,7 @@
       "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2019-11-06T14:05:43.5875045+08:00",
+    "LockDateTime": "2019-11-06T14:06:24.9290776+08:00",
     "ModuleType": 1
   }
 ]
