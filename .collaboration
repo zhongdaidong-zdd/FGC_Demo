@@ -149,7 +149,16 @@
   },
   {
     "ModuleName": "内建页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2019-11-08T14:20:36.6714228+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\test1\\test\\test\\内建页面.json"
+    ]
   },
   {
     "ModuleName": "Pages\\。。",
