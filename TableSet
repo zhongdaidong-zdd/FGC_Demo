@@ -1,2 +1,459 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TableSet />
+<TableSet>
+  <Tables>
+    <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>省</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>市</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>省市表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>1</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+      <ColumnPermissions>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.Role" assembly="Forguncy.Permission">
+              <RoleName>Administrator</RoleName>
+            </Who>
+          </Item>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <ColumnsCantEdit>
+              <Item type="System.String">
+                <Value>Atomic_Number</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Element</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Symbol</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Atomic_Weight</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Period</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Group</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Phase</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Most_Stable_Crystal</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Type</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Ionic_Radius</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Atomic_Radius</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Electronegativity</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>First_Ionization_Potential</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Density</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Melting_Point__K_</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Boiling_Point__K_</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Isotopes</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Discoverer</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Year_of_Discovery</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Specific_Heat_Capacity</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Electron_Configuration</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Display_Row</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Display_Column</Value>
+              </Item>
+            </ColumnsCantEdit>
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <ColumnsCantEdit>
+              <Item type="System.String">
+                <Value>Atomic_Number</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Element</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Symbol</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Atomic_Weight</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Period</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Group</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Phase</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Most_Stable_Crystal</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Type</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Ionic_Radius</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Atomic_Radius</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Electronegativity</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>First_Ionization_Potential</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Density</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Melting_Point__K_</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Boiling_Point__K_</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Isotopes</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Discoverer</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Year_of_Discovery</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Specific_Heat_Capacity</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Electron_Configuration</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Display_Row</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>Display_Column</Value>
+              </Item>
+            </ColumnsCantEdit>
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+        <TableName>元素周期表</TableName>
+      </ColumnPermissions>
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Atomic_Number</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Element</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Symbol</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Atomic_Weight</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Period</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Group</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Phase</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Most_Stable_Crystal</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Type</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Ionic_Radius</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Atomic_Radius</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Electronegativity</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>First_Ionization_Potential</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Density</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Melting_Point__K_</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Boiling_Point__K_</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Isotopes</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Discoverer</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Year_of_Discovery</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Specific_Heat_Capacity</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Electron_Configuration</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Display_Row</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>Display_Column</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <CreateRecordPermissions>
+        <IsEnable>True</IsEnable>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.CreateRecordPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.CreateRecordPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.CreateRecordPermissionItem" assembly="Forguncy.Permission">
+            <AllowCreateRecord>True</AllowCreateRecord>
+            <Who class="Forguncy.Permission.Role" assembly="Forguncy.Permission">
+              <RoleName>Administrator</RoleName>
+            </Who>
+          </Item>
+        </PermissionItems>
+      </CreateRecordPermissions>
+      <Name>元素周期表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <RowPermissions>
+        <IsEnable>True</IsEnable>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Delete>True</Delete>
+            <Edit>True</Edit>
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.Role" assembly="Forguncy.Permission">
+              <RoleName>Administrator</RoleName>
+            </Who>
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.CreatorOfRecord" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.LeaderOfCreatorOfRecord" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+        <TableName>元素周期表</TableName>
+      </RowPermissions>
+      <Weight>2</Weight>
+    </Item>
+  </Tables>
+</TableSet>

@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicationSettings>
+  <FocusMoveMode>Default</FocusMoveMode>
   <IntegrateWithOtherApplication>
-    <Password>4ILD~q%X9b6J</Password>
+    <Password>NCZeVat$*t0Z</Password>
   </IntegrateWithOtherApplication>
-  <UserServicePort>51301</UserServicePort>
-  <WebSitePort>60388</WebSitePort>
+  <StartPage>首页</StartPage>
+  <UserServicePort>59726</UserServicePort>
+  <WebSitePort>39800</WebSitePort>
 </ApplicationSettings>
